@@ -10,9 +10,9 @@ import img1 from './img1.png';
 import img2 from './img2.png';
 import cardImg from './cardImg.png';
 import ring from './ring.png';
-import like from './like.jpg';
-import glass from './glass.png';
-import heart from './heart.png';
+// import like from './like.jpg';
+// import glass from './glass.png';
+// import heart from './heart.png';
 import heartCalander from './heart-calander.png';
 
 
@@ -116,7 +116,7 @@ function App() {
 <img src={couple} alt="chitra" className="couple-img"/>
 <div style={{marginTop: "-720px"}}>
  
-  <div className='bubble1'><img src={ring} className="ring-img"/></div>
+  <div className='bubble1'><img src={ring} className="ring-img" alt='chitra'/></div>
   <div className='bubble2'> ♡
     {/* <img src={like} className="like-img"/> */}
     </div>
@@ -124,7 +124,7 @@ function App() {
     {/* <img src={glass} className="glass-img"/> */}
     </div>
   <div className='bubble4'>♡</div>
-  <div className='bubble5'><img src={heartCalander} className="calender-img"/></div>
+  <div className='bubble5'><img src={heartCalander} className="calender-img" alt='chitra'/></div>
 </div>
   <div style={{marginLeft:"-700px",display:"flex"}}>
 <div className='gender' style={{marginTop:"-180px"}}><span style={{color:"black"}}>♂ </span>Male</div>
